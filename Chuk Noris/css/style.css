@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 0;
+}
+
+h2{
+    color: rgb(186, 213, 237);
+    font-style: oblique;
+    padding-top: 40px;
+    font-size: 2em;
+}
+
+.form{
+    padding: 30px 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+p{
+   text-align: center;
+   font-size: 0.9em;    
+}
+
+@media (max-width: 932px){           
+    form{
+        width: 90%;        
+        margin: auto;
+    }           
+}
